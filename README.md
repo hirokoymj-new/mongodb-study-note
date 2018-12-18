@@ -14,10 +14,14 @@ mongoimport --db mongo-exercises --collection courses --drop --file exercise-dat
 
 **Options**
 >--db [database] 
---collection [collection]
---file [filename]
---drop
---jsonArray 
->>Accepts the import of data expressed with multiple MongoDB documents within a single JSON array.
+
+>--collection [collection]
+
+>--file [filename]
+
+>--drop
+
+>--jsonArray 
+Accepts the import of data expressed with multiple MongoDB documents within a single JSON array.
 
 
